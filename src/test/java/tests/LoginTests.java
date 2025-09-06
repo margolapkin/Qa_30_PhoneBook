@@ -22,7 +22,7 @@ public class LoginTests extends TestBase {
 
         }
     }
-
+//for jenkins
     @Test(dataProvider ="loginData" ,dataProviderClass = DataProviderUser.class)
     public void loginSuccess(String email,String password) {
         logger.info("Start test with name'loginSuccess'");
